@@ -8,9 +8,9 @@ let names = ["Henk", "Piet", "Fred", "Joop"];
 // geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
 
 for (let i = 0; i < names.length; i++) {
-    console.log(names[i] + "je");
+    names[i] = names[i] + "je";
 }
-
+console.log(names);
 
 // --------------------------
 // Opdracht 2
