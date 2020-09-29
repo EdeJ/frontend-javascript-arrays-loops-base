@@ -36,6 +36,3 @@ for (let i = 0; i < grades.length; i++) {
     total += grades[i]
 }
 console.log("het gemiddelde =" + total / grades.length)
-
-
-
